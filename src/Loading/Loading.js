@@ -46,29 +46,25 @@ function Loading() {
                             case 'ls':
                                 olderInput = input;
                                 newOutput ='english.lnx korean.lnx';
-                                break;
-                                case 'ls':
-                                    olderInput = input;
-                                    newOutput ='english.lnx korean.lnx';
-                                break;
-                                case 'help':
-                                    olderInput = input;
-                                    newOutput ='try typing "nano [language.lnx]"';
-                                break;
-                                case 'nano korean.lnx':
-                                    olderInput = input;
-                                    newOutput ='한국어 활성화....';
-                                    window.location.replace("/홈");
-                                break;
-                                case 'nano english.lnx':
-                                    olderInput = input;
-                                    newOutput = '한국어 활성화....';
-                                    window.location.replace("/main");
-                                break;
+                            break;
+                            case 'help':
+                                olderInput = input;
+                                newOutput ='try typing "nano [language.lnx]"';
+                            break;
+                            case 'nano korean.lnx':
+                                olderInput = input;
+                                newOutput ='한국어 활성화....';
+                                window.location.replace("/홈");
+                            break;
+                            case 'nano english.lnx':
+                                olderInput = input;
+                                newOutput = 'Enabling English....';
+                                window.location.replace("/main");
+                            break;
                             default:
                                 olderInput = input;
                                 newOutput ='Error Message!';
-                                window.alert("Bruh");
+                                window.alert("Please type in correct value");
                                 break;
                         }
                         setOutput(newOutput);
