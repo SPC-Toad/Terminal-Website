@@ -1,0 +1,30 @@
+.loading-container {
+    background-color: #333;
+    color: orange;
+    height: 100vh;
+    padding:1rem;
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: flex;
+}
+
+input {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: orange;
+    width: 400%;
+}
+
+#output-line1 {
+    display: flex;
+    color: orange;
+}
+
+.terminal {
+    color: azure;
+}
